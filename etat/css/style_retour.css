@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background-color: #DE4949;
+    overflow: hidden;
+
+}
+
+a{
+    color: #DE4949;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+.logo{
+    display: flex;
+    margin: 25vh auto 0 auto;
+    width: 198px;
+    align-items: center;
+}
+
+.lien{
+    display: flex;
+    margin-top: 23vh;
+    justify-content: center;
+}
+
+.btn-etat{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+figure{
+    display: none;
+}
